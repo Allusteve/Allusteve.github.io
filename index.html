@@ -244,10 +244,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-12-19 17:08:54 / 修改时间：17:10:51" itemprop="dateCreated datePublished" datetime="2021-12-19T17:08:54+08:00">2021-12-19</time>
+              <time title="创建时间：2021-12-19 17:08:54" itemprop="dateCreated datePublished" datetime="2021-12-19T17:08:54+08:00">2021-12-19</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-20 23:19:38" itemprop="dateModified" datetime="2021-12-20T23:19:38+08:00">2021-12-20</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -270,17 +276,11 @@
 
       
           <p> Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。</p>
-<h1 id="Control-Rig的启用和创建"><a href="#Control-Rig的启用和创建" class="headerlink" title="Control Rig的启用和创建"></a>Control Rig的启用和创建</h1><p>Control Rig以引擎插件的形式集成在引擎中，当前版本默认是关闭的，需要手动去开启</p>
-<p>可以用两种方法为骨骼网格体创建Control Rig。第一种方法，右键点击一个骨骼网格体资产，选择 创建Control Rig（Create Control Rig）。这会新建一个 Control Rig 资产并自动将你的骨骼网格体指定为绑定对象。此资产会自动沿用骨骼网格体的名称，并且以 _CtrlRig 作为名称后缀。</p>
-<p>第二种方法是手动创建一个 Control Rig。步骤是在内容浏览器中点击右键，选择 动画（Animation）&gt; Control Rig。在上下文菜单中，选择 ControlRig 并点击 创建（Create）。</p>
-<p>创建一个空白的Control Rig资源后，可以在Rig Hierarchy面板中手动import mesh。从这里就可以看到Control Rig不同于以往ue4动画资源的地方，它是可以独立创建资源。而且USkeletalMesh在这里是一个Preview Mesh的概念。</p>
-<p>从引用关系图可以看到，Control Rig并没有强引用USkeletalMesh和USkeleton。这就可以看到Control Rig可以在不同骨骼角色之间共用的可能性。 后面会尝试解释Control Rig是如何能在不同的骨骼之间工作的。</p>
-<h1 id="Rig-Hierarchy"><a href="#Rig-Hierarchy" class="headerlink" title="Rig Hierarchy"></a>Rig Hierarchy</h1><p>Rig层级（Rig Hierarchy）面板类似于大纲视图，可以查看当前骨架和控制点的层级。这也是你新建 骨骼（Bones）、控制点（Controls） 和 空间（Spaces） 的主要区域。要创建这些元素，在面板中点击右键，这是Control Rig中最重要的数据面板。这3种元素都是继承于FRigElement，拥有一个基本的name和index。</p>
-<h2 id="Bone"><a href="#Bone" class="headerlink" title="Bone"></a>Bone</h2><p>Bone分为Imported和User两种类型。ImportedBone在Rig Hierarchy中用白色标记，它在从SkeletalMesh创建Control Rig或者手动调用import mesh时生成， 而UserBone是用户在Hierarchy面板中手动创建，用绿色标记。这里的Bone可以看作是一个带有父子关系的transform变量，和传统动画资源Skeleton Tree里的bone不是一个概念。而且不能挂靠在Control和Space下。UserBone在ue4.26中推出，目前还没有看到其相关应用。在代码中，两者的数据类型是完全相同的，都是FRigBone，只有成员变量Type是不同的，所以其实这两者在使用中并没有任何区别。</p>
-<h2 id="Space"><a href="#Space" class="headerlink" title="Space"></a>Space</h2><p>在Rig Hierarchy中用红色标记。Bone和Space在视口中都没有可视化标记，也不能在视口中移动。Space可以挂靠在Bone，Control，Space下。它的作用类似于maya软件中的group，或者蓝图BP里的SceneComponent。 从代码中可以看到，Control的local transform都是相对于Space的看，当Control挂在Space下，该Space可视作Control的原点，它用来组织并偏移挂载其下的一系列Controls。</p>
-<h2 id="Control"><a href="#Control" class="headerlink" title="Control"></a>Control</h2><p>在Rig Hierarchy中用蓝色小球标记。是在Control Rig中使用最多的Element。它拥有被称作Gizmo的可视化形状工具，可以操纵这些Gizmo来改变Control的参数。Control可以用多种不同的数据类型表示，越复杂的数据其可控制能力就越强。其最常见的用法就是将Control和某一个Target Bone绑定在一起，用Control的Tranform数据去驱动实际Bone的Transform。</p>
-<p>选择合适的可视化Gizmo，可以使得Control的功能更加清晰易懂。例如只想使用Control来控制骨骼的旋转，那么用一个圆环套在身上就非常合适。下面两个Control Rig模板就很好体现了这个思想。</p>
-<p>在Control Rig编辑器的Class Settings可以修改Gizmo Library类，如果有需求可以编写自己的GizmoLibrary来扩展更多的几何可视化工具。</p>
+<h1 id="Control-Rig的启用和创建"><a href="#Control-Rig的启用和创建" class="headerlink" title="Control Rig的启用和创建"></a>Control Rig的启用和创建</h1><p>Control Rig作为引擎插件集成在引擎中，在4.26版本中默认是关闭的，需要手动去开启<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/EnableControlRig.png" alt="EnableControlRig"><br>可以用两种方法为骨骼网格体创建Control Rig。第一种方法，右键点击一个骨骼网格体资产，选择 创建Control Rig（Create Control Rig）。这会新建一个 Control Rig 资产并自动将骨骼网格体指定为绑定对象。此资产会自动沿用骨骼网格体的名称，并且以 _CtrlRig 作为名称后缀。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/createcr.png" alt="createcr"><br>第二种方法是手动创建一个 Control Rig。步骤是在内容浏览器中点击右键，选择 动画（Animation）&gt; Control Rig。在上下文菜单中，选择 ControlRig 并点击 创建（Create）。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/create2.gif" alt="create2"><br>创建一个空白的Control Rig资源后，可以在Rig Hierarchy面板中手动import mesh。从这里就可以看到ControlRig不同于以往ue4动画资产的地方，它可以不依赖于USkeleton而独立创建资源。USkeletalMesh在这里是一个Preview Mesh的概念。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/ReferenceViewer.png" alt="ReferenceViewer"><br>从引用关系图可以看到，Control Rig并没有强引用USkeletalMesh和USkeleton。这就可以看到Control Rig可以在不同骨骼角色之间共用的可能性。 后面会说明Control Rig是如何能在不同的骨骼之间工作的。</p>
+<h1 id="Rig-Hierarchy"><a href="#Rig-Hierarchy" class="headerlink" title="Rig Hierarchy"></a>Rig Hierarchy</h1><p>Rig层级（Rig Hierarchy）面板类似于大纲视图，可以查看当前骨架和控制点的层级。这也是新建 骨骼（Bones）、控制点（Controls） 和 空间（Spaces） 的主要区域。要创建这些元素，在面板中点击右键，这是Control Rig中最重要的数据面板。这3种元素都是继承于FRigElement，拥有一个基本的name和index。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/RigHierarchy.gif" alt="RigHierarchy"><br>对于这三种数据结构，可以分为两类。第一类是Bone，第二类是Control和Spaces</p>
+<h2 id="Bone"><a href="#Bone" class="headerlink" title="Bone"></a>Bone</h2><p>Bone是ControlRig对外沟通的桥梁，分为Imported和User两种类型。ImportedBone在Rig Hierarchy中用白色标记，它在从SkeletalMesh创建Control Rig或者手动调用import mesh时生成， 而UserBone是用户在Hierarchy面板中手动创建，用绿色标记。ControlRig的Bone可以看作是一个带有父子关系的transform变量，和传统动画资源Skeleton Tree里的Bone不是一个概念。而且不能挂靠在Control和Space下。UserBone在4.26中推出，在代码中，两者的数据类型都是FRigBone，只有成员变量枚举Type是不同的。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/RigBone.png" alt="RigBone"><br>这里简单说一下，<strong>ControlRig作为中间计算工具，外部将FName相同的骨骼的Transform传进来，内部利用这些数据执行完脚本逻辑后，再拷贝到外部</strong></p>
+<h2 id="Space"><a href="#Space" class="headerlink" title="Space"></a>Space</h2><p>在Rig Hierarchy中用红色标记。Space和Control搭配起来使用，Space在视口中没有可视化标记，也不能在视口中移动。Space可以挂靠在Bone，Control，Space下。它的作用类似于SceneComponent。从代码中可以看到，Control的local transform都是相对于Space的，当Control挂在Space下，该Space可视作Control的原点，它用来组织并变换挂载其下的Controls。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/RigSpace.png" alt="RigSpace"></p>
+<h2 id="Control"><a href="#Control" class="headerlink" title="Control"></a>Control</h2><p>在Rig Hierarchy中用蓝色小球标记。是在Control Rig文档中介绍得最多的Element。它拥有可在场景中交互的Gizmo可视化形状工具，可以用鼠标操纵这些Gizmo来改变Control的参数。Control可以用多种不同的数据类型表示，越复杂的数据其可控制能力就越强。其最常见的用法就是将Control和某一个Target Bone绑定在一起，用Control的Tranform数据去驱动实际Bone的Transform。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/controltype.png" alt="controltype"><br>选择合适的可视化Gizmo，可以使得Control的功能更加清晰易懂。例如只想使用Control来控制骨骼的旋转，那么用一个圆环套在身上就非常合适。下面的Control Rig官方示例就很好体现了这个思想。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/SetCurrent.gif" alt="SetCurrent"><br>在Control Rig编辑器的Class Settings可以修改Gizmo Library类，如果有需求可以编写自己的GizmoLibrary来扩展更多的几何可视化工具。</p>
 <h2 id="Control-Rig-功能共享的思考"><a href="#Control-Rig-功能共享的思考" class="headerlink" title="Control Rig 功能共享的思考"></a>Control Rig 功能共享的思考</h2><p>为什么说Control Rig可以在不同骨骼之间共享？因为Control Rig在其内部数据结构中并没有维护或者序列化任何USkeleton或者FRerenceSkeleton对象。而是声明了FRigHierarchyContainer结构体，这个结构体主要由FRigBoneHierarchy，FRigSpaceHierarchy，FRigControlHierarchy，FRigCurveContainer这4个struct构成，这4个struct可以视作对应数据结构（bone, space, control ,curve）的数组。</p>
 <p>对这些数据结构进行赋值，计算等一系列操作，对于Control Rig来说都是其内部行为，与外界资源都是独立的。那么引擎的动画模块是如何使用它并与真正的SkeletalMesh建立映射关系呢？关键就是通过骨骼bone的名称FName来完成。当在Sequencer或者动画蓝图里使用Control Rig时，底层的逻辑都是在FAnimNode_ControlRig动画节点来完成。</p>
 <p>既然是动画蓝图，那么一定会强引用一个ReferenceSkeleton。在该动画节点的CacheBones接口上，会获取动画蓝图引用的骨骼的所有名称并存进哈希表ControlRigBoneMapping。在动画节点的Evaluate接口，首先会调用UpdateInput，把ControlRig动画节点之前计算好的骨骼FPoseContext传进ControlRig内部，然后调用ControlRig的Evaluate_AnyThread接口，进行ControlRig内部本地的骨骼控制约束计算，最后调用UpdateOuput，这里会把ControlRig内部更新的数据结构与实际动画蓝图对应的骨骼数据进行同步，将结果写进FPoseContext。</p>
