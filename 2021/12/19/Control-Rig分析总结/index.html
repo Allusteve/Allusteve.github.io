@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="（未完待续） Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。 Control Rig的启用和创建Control">
+  <meta name="description" content="（未完待续） Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Control Rig分析总结">
 <meta property="og:url" content="http://example.com/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="夏日梦蓝">
-<meta property="og:description" content="（未完待续） Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。 Control Rig的启用和创建Control">
+<meta property="og:description" content="（未完待续） Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/EnableControlRig.png">
 <meta property="og:image" content="http://example.com/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/createcr.png">
@@ -68,7 +68,7 @@
 <meta property="og:image" content="http://example.com/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/share_5.png">
 <meta property="og:image" content="http://example.com/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/share_6.png">
 <meta property="article:published_time" content="2021-12-19T09:08:54.000Z">
-<meta property="article:modified_time" content="2021-12-27T14:58:44.180Z">
+<meta property="article:modified_time" content="2022-02-20T15:39:54.008Z">
 <meta property="article:author" content="ALiang">
 <meta property="article:tag" content="UE4">
 <meta name="twitter:card" content="summary">
@@ -238,7 +238,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-12-27 22:58:44" itemprop="dateModified" datetime="2021-12-27T22:58:44+08:00">2021-12-27</time>
+                <time title="修改时间：2022-02-20 23:39:54" itemprop="dateModified" datetime="2022-02-20T23:39:54+08:00">2022-02-20</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -262,6 +262,8 @@
 
       
         <p>（未完待续）<br> Control Rig是一个基于节点的绑定系统，其本质是一个骨骼约束脚本。通过在根骨骼空间中建立一系列的点或者说Element，将其绑定在想要驱动的骨骼上，从而实现对骨骼的控制和约束。它的Rigging是建立在骨骼上的，其操纵的最小颗粒就是骨骼。所以Control Rig对于一个没有骨骼或者顶点没有绑定到骨骼上的Mesh是没有意义的。</p>
+<span id="more"></span>
+
 <h1 id="Control-Rig的启用和创建"><a href="#Control-Rig的启用和创建" class="headerlink" title="Control Rig的启用和创建"></a>Control Rig的启用和创建</h1><p>Control Rig作为引擎插件集成在引擎中，在4.26版本中默认是关闭的，需要手动去开启<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/EnableControlRig.png" alt="EnableControlRig">可以用两种方法为骨骼网格体创建Control Rig。第一种方法，右键点击一个骨骼网格体资产，选择 创建Control Rig（Create Control Rig）。这会新建一个 Control Rig 资产并自动将骨骼网格体指定为绑定对象。此资产会自动沿用骨骼网格体的名称，并且以 _CtrlRig 作为名称后缀。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/createcr.png" alt="createcr">第二种方法是手动创建一个 Control Rig。步骤是在内容浏览器中点击右键，选择 动画（Animation）&gt; Control Rig。在上下文菜单中，选择 ControlRig 并点击 创建（Create）。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/create2.gif" alt="create2">创建一个空白的Control Rig资源后，可以在Rig Hierarchy面板中手动import mesh。从这里就可以看到ControlRig不同于以往ue4动画资产的地方，它可以不依赖于USkeleton而独立创建资源。USkeletalMesh在这里是一个Preview Mesh的概念。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/ReferenceViewer.png" alt="ReferenceViewer">从引用关系图可以看到，Control Rig并没有强引用USkeletalMesh和USkeleton。这就可以看到Control Rig可以在不同骨骼角色之间共用的可能性。 后面会说明Control Rig是如何能在不同的骨骼之间工作的。</p>
 <h1 id="Rig-Hierarchy"><a href="#Rig-Hierarchy" class="headerlink" title="Rig Hierarchy"></a>Rig Hierarchy</h1><p>Rig层级（Rig Hierarchy）面板类似于大纲视图，可以查看当前骨架和控制点的层级。这也是新建 骨骼（Bones）、控制点（Controls） 和 空间（Spaces） 的主要区域。要创建这些元素，在面板中点击右键，这是Control Rig中最重要的数据面板。这3种元素都是继承于FRigElement，拥有一个基本的name和index。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/RigHierarchy.gif" alt="RigHierarchy"><br>对于这三种数据结构，可以分为两类。第一类是Bone，第二类是Control和Spaces</p>
 <h2 id="Bone"><a href="#Bone" class="headerlink" title="Bone"></a>Bone</h2><p>Bone是ControlRig对外沟通的桥梁，分为Imported和User两种类型。ImportedBone在Rig Hierarchy中用白色标记，它在从SkeletalMesh创建Control Rig或者手动调用import mesh时生成， 而UserBone是用户在Hierarchy面板中手动创建，用绿色标记。ControlRig的Bone可以看作是一个带有父子关系的transform变量，和传统动画资源Skeleton Tree里的Bone不是一个概念。而且不能挂靠在Control和Space下。UserBone在4.26中推出，在代码中，两者的数据类型都是FRigBone，只有成员变量枚举Type是不同的。<br><img src="/2021/12/19/Control-Rig%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/RigBone.png" alt="RigBone"><br>这里简单说一下，<strong>ControlRig作为中间计算工具，外部将FName相同的骨骼的Transform传进来，内部利用这些数据执行完脚本逻辑后，再拷贝到外部</strong></p>
@@ -427,7 +429,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
