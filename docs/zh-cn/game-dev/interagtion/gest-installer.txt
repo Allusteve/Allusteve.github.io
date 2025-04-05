@@ -1,0 +1,317 @@
+[2024-01-10 00:08:09]:[INFO] 安装文件为: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\app_security_gest_setup_1728_0628_netease.exe
+[2024-01-10 00:08:09]:[INFO] 安装包md5: 0df85395e3ee81efa72e3dc887849304
+[2024-01-10 00:08:09]:[INFO] uuid not exist, ret: 2
+[2024-01-10 00:08:09]:[INFO] generate uuid success.
+[2024-01-10 00:08:09]:[INFO] get uuid success.
+[2024-01-10 00:08:09]:[INFO] 查找安装包: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\app_security_gest_setup_1728_0628_netease.exe ...
+[2024-01-10 00:08:09]:[INFO] 获取安装文件大小信息...
+[2024-01-10 00:08:09]:[INFO] [D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\app_security_gest_setup_1728_0628_netease.exe] filesize:174361936, unpack_size:516291293, start_pos:4075008
+[2024-01-10 00:08:09]:[INFO] 安装包总大小: 174361936, 安装后总大小: 516291293
+[2024-01-10 00:08:09]:[INFO] os version: 10.0 sp0; isWin10=1
+[2024-01-10 00:08:09]:[INFO] 检查当前监视器颜色位深: 1
+[2024-01-10 00:08:09]:[INFO] show dialog at scale=1.00, sw=1920, sh=1080, w=1920, h=1080, dpi=120
+[2024-01-10 00:08:09]:[INFO] A http thread is exist!
+[2024-01-10 00:08:09]:[INFO] 设置安装路径为: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\
+[2024-01-10 00:08:09]:[INFO] try show installer dialog.
+[2024-01-10 00:08:09]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=enter&version=1.7.28.1&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:09]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=Ifree_space_enough_1&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:22]:[INFO] start read curLauncherVer...
+[2024-01-10 00:08:22]:[INFO] curLauncherVer not exist, ret: 2.
+[2024-01-10 00:08:22]:[INFO] start check file...
+[2024-01-10 00:08:22]:[INFO] check files success, cost 0 sec.
+[2024-01-10 00:08:22]:[INFO] A http thread is exist!
+[2024-01-10 00:08:22]:[INFO] write [D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\gest_sfx.exe] success.
+[2024-01-10 00:08:22]:[INFO] 准备安装第 0 个安装包.
+[2024-01-10 00:08:22]:[INFO] install file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\app_security_gest_setup_1728_0628_netease.exe
+[2024-01-10 00:08:22]:[INFO] start [D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\gest_sfx.exe] success.
+[2024-01-10 00:08:22]:[INFO] 正在安装：D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\app_security_gest_setup_1728_0628_netease.exe
+[2024-01-10 00:08:22]:[INFO] A http thread is exist!
+[2024-01-10 00:08:23]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=Imd5_success&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\am.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ar.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\bg.pak
+[2024-01-10 00:08:23]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=Imd5_cost_0s&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\bn.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ca.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\cs.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\da.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\de.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\el.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\en-GB.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\en-US.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\es-419.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\es.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\et.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\fa.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\fi.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\fil.pak
+[2024-01-10 00:08:23]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\fil.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\fr.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\gu.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\he.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\hi.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\hr.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\hu.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\id.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\it.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ja.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\kn.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ko.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\lt.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\lv.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ml.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\mr.pak
+[2024-01-10 00:08:23]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=begin&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ms.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\nb.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\nl.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\pl.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\pt-BR.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\pt-PT.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\qtwebengine_devtools_resources.pak
+[2024-01-10 00:08:23]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\qtwebengine_devtools_resources.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\qtwebengine_resources.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\qtwebengine_resources_100p.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\qtwebengine_resources_200p.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ro.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ru.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\sk.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\sl.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\sr.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\sv.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\sw.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\ta.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\te.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\th.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\tr.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\uk.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\vi.pak
+[2024-01-10 00:08:23]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\vi.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\zh-CN.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qtwebengine_locales\zh-TW.pak
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\benchmark\run.bat
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\README.txt
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\rename.txt
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\resources\icudtl.dat
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_ar.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_ar.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_bg.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_bg.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_ca.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_ca.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_cs.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_cs.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_da.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_da.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_de.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_de.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_en.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_en.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_es.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_es.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_fi.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_fi.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_fr.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_fr.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_gd.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_gd.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_he.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_he.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_hu.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_hu.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_it.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_it.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_ja.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_ja.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_ko.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_ko.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_lv.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_lv.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_pl.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_pl.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_ru.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_ru.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_sk.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_sk.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_uk.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_uk.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\translations\qt_zh_TW.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_zh_TW.qm
+[2024-01-10 00:08:23]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\translations\qt_zh_TW.qm
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\benchmark\benchmark.exe
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\ffmpeg.exe
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\ffplay.exe
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\ffprobe.exe
+[2024-01-10 00:08:23]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\gest_launcher.exe
+[2024-01-10 00:08:23]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\gest_launcher.exe
+[2024-01-10 00:08:27]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\LauncherUpdate.exe
+[2024-01-10 00:08:27]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\LauncherUpdate.exe
+[2024-01-10 00:08:27]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\QtWebEngineProcess.exe
+[2024-01-10 00:08:27]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Repair.exe
+[2024-01-10 00:08:27]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Uninstall.exe
+[2024-01-10 00:08:27]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Uninstall.exe
+[2024-01-10 00:08:27]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\vc_redist.x64.exe
+[2024-01-10 00:08:27]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\vc_redist.x64.exe
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-file-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-file-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-file-l2-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-file-l2-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-localization-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-localization-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-processthreads-l1-1-1.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-processthreads-l1-1-1.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-synch-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-synch-l1-2-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-core-timezone-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-core-timezone-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-convert-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-convert-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-environment-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-environment-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-filesystem-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-filesystem-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-heap-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-heap-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-locale-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-locale-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-math-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-math-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-runtime-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-runtime-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-stdio-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-stdio-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-string-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-string-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-time-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-time-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\api-ms-win-crt-utility-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\api-ms-win-crt-utility-l1-1-0.dll
+[2024-01-10 00:08:28]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avcodec-58.dll
+[2024-01-10 00:08:28]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avcodec-58.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avdevice-58.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avfilter-7.dll
+[2024-01-10 00:08:29]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avfilter-7.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avformat-58.dll
+[2024-01-10 00:08:29]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avformat-58.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\avutil-56.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\CrashHunter_PC3.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\D3Dcompiler_47.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\D3Dcompiler_47.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\benchmark\D3DX9_43.dll
+[2024-01-10 00:08:29]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\benchmark\D3DX9_43.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\mediaservice\dsengine.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\KERNEL32.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\KERNEL32.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\libcrypto-1_1-x64.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\libcrypto-1_1-x64.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\libEGL.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\libEGL.dll
+[2024-01-10 00:08:29]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\libGLESV2.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\libGLESV2.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\libssl-1_1-x64.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\libssl-1_1-x64.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\msvcp140.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\msvcp140.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\NtUniSdkOrbit.dll
+[2024-01-10 00:08:30]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\NtUniSdkOrbit.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\ole32.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\OLEAUT32.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\OLEAUT32.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\opengl32sw.dll
+[2024-01-10 00:08:30]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\opengl32sw.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\opengl32sw.dll
+[2024-01-10 00:08:30]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\opengl32sw.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\postproc-55.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\bearer\qgenericbearer.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\bearer\qgenericbearer.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qgif.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qgif.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qicns.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qicns.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qico.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qico.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qjpeg.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qjpeg.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\bearer\qnativewifibearer.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qsvg.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qsvg.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\iconengines\qsvgicon.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\iconengines\qsvgicon.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Core.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Core.dll
+[2024-01-10 00:08:30]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Core.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Gui.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Gui.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Multimedia.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5MultimediaWidgets.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Network.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Network.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5OpenGL.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Positioning.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5PrintSupport.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Qml.dll
+[2024-01-10 00:08:30]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Qml.dll
+[2024-01-10 00:08:30]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Quick.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5QuickWidgets.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5SerialPort.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Svg.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Svg.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5WebChannel.dll
+[2024-01-10 00:08:31]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5WebEngineCore.dll
+[2024-01-10 00:08:31]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5WebEngineCore.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5WebEngineWidgets.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Widgets.dll
+[2024-01-10 00:08:32]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\Qt5Widgets.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\Qt5Widgets.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\audio\qtaudio_wasapi.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\audio\qtaudio_windows.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qtga.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qtga.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qtiff.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qtiff.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\mediaservice\qtmedia_audioengine.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\playlistformats\qtmultimedia_m3u.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\position\qtposition_geoclue.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\position\qtposition_positionpoll.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\position\qtposition_serialnmea.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\position\qtposition_winrt.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qwbmp.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qwbmp.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\imageformats\qwebp.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\imageformats\qwebp.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\platforms\qwindows.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\platforms\qwindows.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\styles\qwindowsvistastyle.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\styles\qwindowsvistastyle.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\shell32.dll
+[2024-01-10 00:08:32]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\shell32.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\swresample-3.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\swscale-5.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\ucrtbase.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\ucrtbase.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\USER32.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\USER32.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\benchmark\vcomp100.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\vcruntime140.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\vcruntime140.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\LauncherUpdate\vcruntime140_1.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\vcruntime140_1.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\printsupport\windowsprintersupport.dll
+[2024-01-10 00:08:32]:[INFO] process file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\mediaservice\wmfengine.dll
+[2024-01-10 00:08:32]:[INFO] OnUpdateSfxMsg success:1, para:0, cost 9 sec.
+[2024-01-10 00:08:32]:[INFO] install success 0 file.
+[2024-01-10 00:08:32]:[INFO] show file: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\mediaservice\wmfengine.dll
+[2024-01-10 00:08:32]:[INFO] sub process exited.
+[2024-01-10 00:08:32]:[INFO] write D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\vendor.ini: netease
+[2024-01-10 00:08:32]:[INFO] New install launcher.
+[2024-01-10 00:08:32]:[INFO] SetHiDPIAware gest_launcher & Uninstall...
+[2024-01-10 00:08:32]:[INFO] SetHiDPIAware success: [D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest\Launcher\gest_launcher.exe]
+[2024-01-10 00:08:32]:[INFO] 完整安装包文件列表: gest_0628_0.7z,gest_0628_1.7z,gest_0628_2.7z,gest_0628_3.7z,gest_0628_4.7z,gest_0628_5.7z,gest_0628_6.7z,gest_0628_7.7z,gest_0628_8.7z,gest_0628_9.7z,gest_0628_10.7z,gest_0628_11.7z,gest_0628_12.7z,gest_0628_13.7z,gest_0628_14.7z,gest_0628_15.7z,gest_0628_16.7z,gest_0628_17.7z,gest_0628_18.7z,gest_0628_19.7z,gest_0628_20.7z,gest_0628_21.7z,gest_0628_22.7z,gest_0628_23.7z,gest_0628_24.7z,gest_0628_25.7z,gest_0628_26.7z,gest_0628_27.7z,gest_0628_28.7z,gest_0628_29.7z,gest_0628_30.7z,gest_0628_31.7z,gest_0628_32.7z,gest_0628_33.7z,gest_0628_34.7z,gest_0628_35.7z,gest_0628_36.7z,gest_0628_37.7z,gest_0628_38.7z,gest_0628_39.7z,gest_0628_40.7z,gest_0628_41.7z,gest_0628_42.7z,gest_0628_43.7z,gest_0628_44.7z,gest_0628_45.7z,gest_0628_46.7z,gest_0628_47.7z,gest_0628_48.7z,gest_0628_49.7z,gest_0628_50.7z,gest_0628_51.7z,gest_0628_52.7z,gest_0628_53.7z,gest_0628_54.7z,gest_0628_55.7z,gest_0628_56.7z,gest_0628_57.7z,gest_0628_58.7z,gest_0628_59.7z,gest_0628_60.7z,gest_0628_61.7z,gest_0628_62.7z,gest_
+[2024-01-10 00:08:32]:[ERROR] 7z file not exist: D:\Docsify_Blog\blog\docs\zh-cn\game-dev\interagtion\gest_0628_0.7z
+[2024-01-10 00:08:32]:[INFO] 创建桌面快捷方式成功.
+[2024-01-10 00:08:32]:[INFO] 创建开始菜单快捷方式成功.
+[2024-01-10 00:08:32]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=Iinstall_0_file_success_cost_50s&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
+[2024-01-10 00:08:33]:[INFO] 创建卸载快捷方式成功.
+[2024-01-10 00:08:33]:[INFO] start game...
+[2024-01-10 00:08:33]:[INFO] start benchmark success.
+[2024-01-10 00:08:33]:[INFO] HTTP get [https://drpf-g117.proxima.nie.netease.com?type=install_launcher&source=netease_g117&project=g117&logContent=end&udid=FA2D4CE76C0143F47E42D874C7F2DEEC&DiskId=M20052903692&MacAddr=2cf05d568575&uuid=477a1e94-af09-11ee-8414-001a7dda7111] success.
